@@ -1,20 +1,10 @@
-@extends('layouts.app')
-
-
-@section('content')
+<x-app-layout>
 <header>
   
     <div class="logo">
       <img src="{{ url('/images/logowhite.png')}}" alt="Logo" style="width: 50px; height: 50px;">
     </div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="{{ route('home') }}">Home</a></li>
-        <li><a href="{{ route('about') }}">About</a></li>
-        <li><a href="{{ route('projects') }}">Projects</a></li>
-        <li><a href="{{ route('contact') }}">Contact</a></li>
-      </ul>
-    </nav>
+    @include("main.nav")
   </header>
   
 <div class="Abouttext">
@@ -33,4 +23,4 @@
 
 </p>
 </div>
-@endsection
+</x-app-layout>
