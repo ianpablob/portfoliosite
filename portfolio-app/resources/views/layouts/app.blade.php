@@ -8,7 +8,7 @@
     <link href="{{ url('css/style.css') }}" rel="stylesheet"/>
 </head>
 
-<body>
+<body>  
     <div class="header-container">
         <header>
             <!-- Cabeçalho -->

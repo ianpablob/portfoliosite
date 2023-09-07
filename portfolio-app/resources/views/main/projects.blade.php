@@ -1,50 +1,35 @@
 <x-app-layout>
-<header>
-  
+  <header>
     <div class="logo">
-      <img src="{{ url('/images/logowhite.png')}}" alt="Logo" style="width: 50px; height: 50px;">
+      <a href="{{ url('/') }}"><img src="{{ url('/images/logowhite.png')}}" alt="Logo" style="width: 45px; height: 45px;"></a>
     </div>
     @include("main.nav")
   </header>
 
-<div class="AboutContainer">
-  <div class="Abouttext">
+  <div class="Container">
     <div class="Title">
       <h1>Projects Page</h1> 
     </div>
   </div>
 </div>
 
-
-<div class="AboutContainer">
-  <div class="Abouttext">
-    <div class="Projectstext">
-      <h3>SNAKE GAME in Python</h3>
-            <p>Developed a version of the classic snake game from old cellphones!</p>
-            <p><img src="{{ url('/images/snakepic.png')}}" alt="foto" style="width: 150px; height: 150px;"></p>
-    </div>
+<div class="ProjectsGrid">
+  <div class="Project">
+    <h3>Snake Game</h3>
+    <p>Developed a version of the classic snake game from old cellphones with Python.</p>
+    <p><img src="{{ url('/images/snakepic.png')}}" alt="foto" style="width: 250px; height: 250px;  margin-top:10px"></p>
   </div>
 
-  <div class="Projectstext">
+  <div class="Project">
     <h3>NoCode Projects</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta scelerisque dui, a venenatis orci varius sed. Nullam ac justo nec lacus iaculis sollicitudin. Phasellus sed lorem quis tortor varius viverra. Maecenas scelerisque mauris sed diam feugiat, non blandit nibh euismod. Maecenas vitae lorem diam. Nunc finibus egestas mi, id ultrices mauris egestas ac. 
-         </p>
-            <p><a href="{{ route('projects.nocode') }}"><img src="{{ url('/images/make.png')}}" alt="foto" style="width: 150px; height: 150px;"></a></p>
+    <p>Automation that was developed with the nocode platform Make and lowcode .</p>
+    <p><a href="{{ route('projects.nocode') }}"><img src="{{ url('/images/makelogo.png')}}" alt="foto" style="width: 250px; height: 250px; margin-top:10px"></a></p>
+  </div>
 
-      
+  <div class="Project">
+    <h3>Third Project</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    <p><img src="{{ url('/images/pythonmainlogo.png')}}" alt="foto" style="width: 250px; height: 250px; margin-top:10px"></p>
   </div>
 </div>
-
-  <div class="AboutContainer">
-    <div class="Abouttext">
-      <div class="Projectstext">
-       <h3>Project 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porta scelerisque dui, a venenatis orci varius sed. Nullam ac justo nec lacus iaculis sollicitudin. Phasellus sed lorem quis tortor varius viverra. Maecenas scelerisque mauris sed diam feugiat, non blandit nibh euismod. Maecenas vitae lorem diam. Nunc finibus egestas mi, id ultrices mauris egestas ac. 
-         </p>
-            <p><img src="{{ url('/images/pythonlogo.png')}}" alt="foto" style="width: 150px; height: 150px;"></p>
-            
-            
-      </div>
-    </div>  
-  </div>
 </x-app-layout>

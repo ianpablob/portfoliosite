@@ -2,7 +2,7 @@
 <header>
   
     <div class="logo">
-      <img src="{{ url('/images/logowhite.png')}}" alt="Logo" style="width: 50px; height: 50px;">
+      <a href="{{ url('/') }}"><img src="{{ url('/images/logowhite.png')}}" alt="Logo" style="width: 50px; height: 50px;"></a>
     </div>
     @include("main.nav")
   </header>
