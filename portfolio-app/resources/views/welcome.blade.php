@@ -14,7 +14,7 @@
   </div>
 
   <div class="mypic">
-    <img src="{{ url('/images/profile.jpeg')}}" alt="foto" style="width: 200px; height: 200px;">
+    <img src="{{ url('/images/profile.jpeg')}}" alt="foto" style="width: 300px; height: 300px;">
   </div>
 </section>
 </x-app-layout>

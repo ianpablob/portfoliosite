@@ -7,29 +7,29 @@
   </header>
 
   <div class="Container">
-    <div class="Title">
-      <h1>Projects Page</h1> 
+    <div class="TitleMain">
+      <h1>Projects.</h1> 
     </div>
   </div>
 </div>
 
 <div class="ProjectsGrid">
   <div class="Project">
-    <h3>Snake Game</h3>
-    <p>Developed a version of the classic snake game from old cellphones with Python.</p>
+    <h2>Snake Game</h2>
     <p><img src="{{ url('/images/snakepic.png')}}" alt="foto" style="width: 250px; height: 250px;  margin-top:10px"></p>
+    <p>Developed a version of the classic snake game from old cellphones with Python.</p>
   </div>
 
   <div class="Project">
-    <h3>NoCode Projects</h3>
-    <p>Automation that was developed with the nocode platform Make and lowcode .</p>
+    <h2>NoCode Projects</h2>
     <p><a href="{{ route('projects.nocode') }}"><img src="{{ url('/images/makelogo.png')}}" alt="foto" style="width: 250px; height: 250px; margin-top:10px"></a></p>
+    <p>Automation that was developed with the nocode platform Make and lowcode .</p>
   </div>
 
   <div class="Project">
-    <h3>Third Project</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+    <h2>Third Project</h2>
     <p><img src="{{ url('/images/pythonmainlogo.png')}}" alt="foto" style="width: 250px; height: 250px; margin-top:10px"></p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
   </div>
 </div>
 </x-app-layout>

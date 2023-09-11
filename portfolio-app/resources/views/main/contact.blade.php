@@ -12,13 +12,15 @@
     <h1>Contact Page</h1> 
     </div>
     <div class="Contactcontent">
-    <p>E-mail: ianpabloborges@gmail.com</p>
-    <p>Social Media: </p>
-    <p><a href="https://github.com/ianpablob"><img src="{{ url('/images/github.png')}}" alt="foto" style="width: 40px; height: 40px;"></a>
-    <a href="https://www.linkedin.com/in/ianpbsilva/"><img src="{{ url('/images/linkedin.png')}}" alt="foto" style="width: 50px; height: 50px;"></a>
+   
+    <p><a href="https://github.com/ianpablob"><img src="{{ url('/images/github.png')}}" alt="foto" style="width: 40px; height: 40px;"></a>github</p>
+    <a href="https://www.linkedin.com/in/ianpbsilva/"><img src="{{ url('/images/linkedin.png')}}" alt="foto" style="width: 50px; height: 50px;"></a>linkedin</p>
 
     </div>
-<div class="Aboutpic">
+<div class="sendemail">
+  <h3>Name</h3>
+  <h3>Email</h3>
+  <h3>Message</h3>
 <p>
 
 </p>

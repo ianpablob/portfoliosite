@@ -19,7 +19,7 @@ use App\Http\Controllers\ContactController;
 Route::get('/', function () {
     return view('welcome');
 });
-
+Route::get('/about', [AboutController::class, 'index'])->name('about.index');
 Route::get('/projects', [ProjectController::class, 'index'])->name('projects.index');
 Route::get('/projects/nocode', [ProjectController::class, 'nocode'])->name('projects.nocode');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact.index');

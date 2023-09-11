@@ -8,14 +8,18 @@
 
   <div class="Container">
       <div class="Title">
-        <h1>No Code Portfolio</h1>
+        <h4>No Code Portfolio</h4>
       </div>
   </div>
 
   <div class="nocodetext">
-    <h2 class="nocodetitle">AI Custom Comments</h2>
+  <br>
+      <br>
+      <br>
+      
     <div class="content">
       <div class="text">
+        <h1 class="nocodetitle">AI Custom Comments</h1>
         <p>
         <b>Project Overview: </b> In the world of social media, engagement is key to building a strong online presence. The "AI Custom Comments" project is a testament to the power of automation and artificial intelligence in enhancing user interactions on social platforms.
         </p>
@@ -30,7 +34,7 @@
         <br>
       </div>
       <div class="images">
-        <img src="{{ url('/images/aicustom.png')}}" alt="foto" style="width: 500px; height: 250px;" class="zoomable-image" onclick="toggleZoom(this)">
+        <img src="{{ url('/images/aicustom.png')}}" alt="foto" style="width: 500px; height: 300px;" class="zoomable-image" onclick="toggleZoom(this)">
         <div class="toolsimgs">
           <img src="{{ url('/images/chatgpt.png')}}" alt="foto" style="width: 50px; height: 50px;">
           <img src="{{ url('/images/podioback.png')}}" alt="foto" style="width: 50px; height: 50px; border-radius: 10px;" >
@@ -42,10 +46,13 @@
 
     <br>
     <br>
+    <br>
+    <br>
 
-    <h2 class="nocodetitle">Update Tracks</h2>
+    
     <div class="content">
       <div class="text">
+        <h1 class="nocodetitle">Update Tracks</h1>
         <p>
           <b>Project Overview:</b> Music is a universal language, and staying connected with your favorite tunes on Spotify is made even more enjoyable through the "Update Tracks" automation project. This project showcases the capability of automation to enhance the music listening experience.
         </p>
@@ -56,10 +63,9 @@
         <br>
         <p>
           <b>Impact:</b> With "Update Tracks," music enthusiasts can actively engage with their entire music collection, giving each song the opportunity to shine. This automation not only enhances the overall listening experience but also boosts engagement for all songs in the user's library, making every song feel appreciated and valued in the digital music world.
-        </p>
-        <br>
+
       </div>
-      <div class="images">
+        <div class="images">
         <img src="{{ url('/images/updatetracks.png')}}" alt="foto" style="width: 500px; height: 250px;"  class="zoomable-image" onclick="toggleZoom(this)">
         <div class="toolsimgs">
           <img src="{{ url('/images/spotback.png')}}" alt="foto" style="width: 50px; height: 50px;border-radius: 10px;">
@@ -68,5 +74,46 @@
         </div>
       </div>
     </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+    <div class="content">
+      <div class="text">
+        <h1 class="nocodetitle">Update Podio by Google Forms</h1>
+        <p>
+          <b>Project Overview:</b>The automation was created with the aim of facilitating the change of information on the customer page on the podium quickly and practically by filling out a Google Form.
+        </p>
+        <br>
+        <p>
+          <b>Project Details:</b>It is an automation that can make changes to links present in the customer's profile and provide information about previous and new links.
+        </p>
+        <br>
+        <p>
+          <b>Impact:</b> This automation was able to facilitate the process of updating the pages of customers who request exchanges without requiring it to be done manually and searching for details about each one.
+
+      </div>
+        <div class="images">
+        <img src="{{ url('/images/csform.png')}}" alt="foto" style="width: 500px; height: 400px;"  class="zoomable-image" onclick="toggleZoom(this)">
+        <div class="toolsimgs">
+          <img src="{{ url('/images/spotback.png')}}" alt="foto" style="width: 50px; height: 50px;border-radius: 10px;">
+          <img src="{{ url('/images/formslogo.png')}}" alt="foto" style="width: 50px; height: 50px;border-radius: 10px;">
+          <img src="{{ url('/images/podioback.png')}}" alt="foto" style="width: 50px; height: 50px; border-radius: 10px;" >
+          <img src="{{ url('/images/makelogo.png')}}" alt="foto" style="width: 50px; height: 50px; border-radius: 10px;" >
+        </div>
+      </div>
+    </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      
   </div>
 </x-app-layout>
